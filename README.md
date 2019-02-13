@@ -4,7 +4,7 @@ Machine Learning in Healthcare with R
 ## Introdução
 Conteúdo e prática do Curso de interpretação de algorítmos em R para aplicação na saúde.
 
-# Tópicos
+## Tópicos
 Tópicos 
 - Introdução ao R e ao Python.
 - Tipos de modelos machine learning.
