@@ -1,0 +1,93 @@
+# Livros
+R em Data Science
+É um ambiente de desenvolvimento integrado (IDE, em inglês).
+- Software que possibilita um ambiente didático para programar e visualizar resultados.
+- Necessita ter o R baixado
+
+Vem apenas com um conjunto básico de pacotes.
+Pacote: conjunto de funções, dados e códigos com um objetivo em comum (análise espacial, testes psicológicos...).
+
+# Testes R
+
+É necessário instalar os pacotes específicos de interesse.
+
+## Biblioteca 
+
+### Ver todos baixados: 
+`library()`
+
+### Ver todos chamados: 
+`(.packages())`
+
+A linguagem do R diferencia maiúscula de minúsculas.
+Missing no R: NA
+- Stata: .
+- MlWin: *
+
+Objetos criados em uma sessão são armazenados apenas temporariamente.
+
+### Dataframe 
+conjunto de vetores com o mesmo número de observações.
+- Podem ter vetores de diferentes tipos.
+- Equivalente à planilha do Excel.
+
+### Listas
+não precisam ter o mesmo tamanho.
+
+Função mais simples do R: calculadora.
+- Digitar após “>”
+- Calcular IMC de pessoa com 89kg e 1,76m: 89/1.72*2
+- Se “+” é porque faltou alguma cois
+
+# Testes R
+
+### Baixar pacote tidyverse
+`install.packages("tidyverse")`
+
+### Criar objeto
+`a <- 4
+a*10`
+
+### Gravar por cima
+R grava por cima sem reclamar
+`a <- a + 10`
+
+### Economiza memória
+`install.packages("doParallel")
+library("doParallel”)`
+
+### Random forest 
+tem vários núcleos
+
+### Média de variável
+Criar Variável
+`b <- c(3,4,5)`
+`mean(b)`
+
+### Criar Banco de Dados
+`pesquisa <- data.frame(filhos = c(1,0,0,0,0,0,0,2,1,0,0)), altura=c(1.73,1.64,
+1.58,1.72,1.70,1.72,1.84,1.69,1.64,1.90,1.75,1.52)`
+
+### Olhar dentro do banco
+$ dentro do banco!!!
+
+### Pedir média da variável dentro do banco de dados
+`mean(pesquisa$filhos)`
+
+# Resumo e visualização
+
+### Resumo do Banco de Dados
+`summary(pesquisa)`
+
+### Visualizar o banco
+`View(pesquisa)`
+
+# Gráficos
+## Histograma do número de filhos
+`hist(pesquisa$filhos)`
+
+## Plot do número de filhos
+`plot(pesquisa$filhos)`
+
+## Gráfico do número de filhos-altura
+`plot(filhos~altura, pesquisa) 
