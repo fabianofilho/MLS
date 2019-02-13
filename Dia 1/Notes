@@ -1,0 +1,50 @@
+# Insights
+
+## Definição
+Predição é diferente de inferência (estatística normal)
+Predição nao tem interpretação
+
+Predição visa acertar a variável, e se excluir, até da pra saber as mais importantes
+Causalidades envolvem diversos fatores — usar métodos causais
+
+## Foco: 
+Problemas práticos de predição (para a tomada de decisão)
+
+Pouco interesse em interpretar os modelos. Liberdade para modelar a complexidade do
+mundo real
+
+Yi = (B0+B1x1i+B2x2i)
+predição — inferência
+
+IMC = sedentarismo + qualidade da alimentação
+(inversão da curva de interesse da estatística)
+
+# Exemplos
+
+## Predizer partos adversos
+Variáveis: filho prematuro, baixo peso, internação na UTI ou morte no primeiro ano.
+Algoritmos de machine learning 
+(random forest, linear discriminant analysis, regressão penalizada e naive Bayes) para predizer risco de parto adverso.
+
+## Predizer < 30 dias QALY em 777 pacientes com câncer internados em UTIs.
+27 variáveis: cinco comorbidades (falência renal crônica, falência pulmonar crônica, falência cardíaca crônica, falência cardíaca e diabetes), quatro fatores de risco (IMC, alcoolismo, uso de esteroides e tabagismo), idade, sexo...
+Seis algoritmos de machine learning: 
+redes neurais artificiais, árvores de decisão, regressão logística e logística penalizada, random forests, gradient boosted trees.
+
+## Predizer a expectativa de vida dos municípios sem usar características de saúde (apenas socioeconômicas e demográficas).
+Boas práticas na importancia dos fatores socioeconômicos
+
+Identificar overachievers: o que eles estão fazendo certo?
+Overachievers
+Predizer para identificar overachievers
+- Quais hospitais têm uma menor taxa de reinternação (ou de mortalidade ou infecção hospitalar ou...) do que o esperado dado o tipo de pacientes que atendem?
+- Quais escolas têm melhor resultados dado o tipo de alunos que estudam lá?
+
+## Desfechos desprezíveis
+o que é aleatório/ o que é predizível?
+
+Predizer para descobrir quais desfechos são predizíveis
+Ranking: por exemplo: câncer é mais predizível que infarto?
+Predizer para comparar o que deveria acontecer vs. o que de fato aconteceu com uma intervenção (projeto cesáreas).
+Predizer para comparar com regras de decisão atual (SAPS...).
+quantas decisões melhores tomaríamos?
