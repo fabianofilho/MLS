@@ -8,3 +8,4 @@ Machine Learning for Social Services: A Study of Prenatal Case Management in Ill
 with cancer. dos Santos HG, Zampieri FG, Normilio-Silva K, Cavalcanti AB, Chiavegatto Filho ACF.
 + Overachieving municipalities in public health: a machine learning approach
 Chiavegatto Filho ADP, dos Santos HG, do Nascimento CF, Massa K, Kawachi I.
++ Data-driven advice for applying machine learning to bioinformatics. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5890912/ Randal S. Olson, William La Cava, Zairah Mustahsan, Akshay Varik, Jason H. Moore. arXiv, 2018.
