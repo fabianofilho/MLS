@@ -17,14 +17,16 @@ Conteúdo e prática do Curso de interpretação de algorítmos em R para aplica
 ### Dia 3
 - Medição de performance.
 - Regressões penalizadas.
-- Mínimos quadrados parciais.
 
 ### Dia 4
+- Regressões penalizadas review.
+- Mínimos quadrados parciais.
 - Support vector machines.
-- Redes neurais.
-- Árvores de decisão, randomforests e gradient boosted trees.
+- Árvores de decisão, randomforests
 
 ### Dia 5
+- XGboost (gradient boosted trees)
+- Redes neurais.
 - Deep learning.
 - Importância preditora das variáveis.
 - Considerações finais. 
